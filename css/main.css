@@ -12,6 +12,12 @@ body {
     margin: 0 auto;
 }
 
+.separation {
+    background-color: #26292D;
+    height: 1px;
+    width: 100%;
+}
+
 /* Nav */
 
 .nav {
@@ -77,12 +83,11 @@ body {
 
 /* Header */
 
-/* Header */
-
 .header {
     background-color: #171717;
     color: #fff;
     display: flex;
+    margin-bottom: 138px;
 }
 
 .header-row {
@@ -98,11 +103,12 @@ body {
 
 .header-content h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 54px;
     line-height: 140%;
 
     margin-bottom: 80px;
     margin-left: 20px;
+    max-width: 656px;
 }
 
 .header-text {
@@ -125,6 +131,7 @@ body {
 }
 
 /* Main */
+
 
 
 
